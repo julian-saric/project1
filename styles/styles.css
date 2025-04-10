@@ -14,15 +14,65 @@ description: index.html, jobs.html, apply.html, about.html
 
 
 #apply_h1 {
-    color: green;  
-    font-size: 2em;
+    color: navy;  
+    font-size: 3em;
     font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#apply_details_fieldset{
+    background-color: white;   
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+#apply_details{
+    color: black;
     text-align: center;
 }
 
-.apply_details{
-    
+#apply_address_fieldset{
+    background-color: white;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
 }
+
+#apply_address{
+    color: black;
+    text-align: center;
+}
+
+#apply_contact_fieldset{
+    background-color: white;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+#apply_contact{
+    color: black;
+    text-align: center;
+}
+
+#apply_work_fieldset{
+    background-color: white;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+#apply_work{
+    color: black;
+    text-align: center;
+}
+
+.apply_submitReset{
+    text-align: center;
+}
+
+body {
+    background-color: azure;
+}
+
 
 
 
