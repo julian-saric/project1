@@ -1,0 +1,34 @@
+/*
+filename: styles.css
+author: Julian, 
+created: 10/04/25
+last modified: 10/04/25
+description: index.html, jobs.html, apply.html, about.html
+*/
+
+/* ----- index.hmtl ----- */
+
+
+
+/* ----- jobs.hmtl ----- */
+
+
+#apply_h1 {
+    color: green;  
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.apply_details{
+    
+}
+
+
+
+
+/* ----- apply.hmtl ----- */
+
+
+
+/* ----- about.hmtl ----- */
