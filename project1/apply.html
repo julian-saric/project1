@@ -13,8 +13,8 @@
     <h1 id="apply_h1">Job Application Form</h1>
 
     <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
-    <fieldset class="apply_details">
-        <legend><strong>Details</strong></legend>
+    <fieldset id="apply_details_fieldset">
+        <legend id="apply_details"><strong>Details</strong></legend>
         <p>
             <label for="job_ref">Job Reference Number</label>
             <select name="Job Reference Number" id="job_ref" required="required">
@@ -42,8 +42,8 @@
         </p>
     </fieldset>
     
-    <fieldset>
-        <legend><strong>Address</strong></legend>
+    <fieldset id="apply_address_fieldset">
+        <legend id="apply_address"><strong>Address</strong></legend>
         <p>
             <label for="street_address">Street Address</label>
             <input type="text" name="street_address" id="street_address" pattern="{1,40}" required="required">
@@ -72,8 +72,8 @@
         </p>
     </fieldset>
 
-    <fieldset>
-        <legend><strong>Contact Details</strong></legend>
+    <fieldset id="apply_contact_fieldset">
+        <legend id="apply_contact"><strong>Contact Details</strong></legend>
         <p>
             <label for="email_address">Email</label>
             <input type="email" name="email_address" id="email_address" placeholder="name@domain.com" required="required">
@@ -84,8 +84,8 @@
         </p>
     </fieldset>
 
-    <fieldset>
-        <legend><strong>Work Requirements</strong></legend>
+    <fieldset id="apply_work_fieldset">
+        <legend id="apply_work"><strong>Work Requirements</strong></legend>
         <p>
             Required Technical Skills
             <br/>
@@ -103,10 +103,12 @@
 
     <br/>
 
+    <section class="apply_submitReset">
     <p>
         <input type="submit" value="Apply"/>
         <input type="reset" value="Reset Form"/>
     </p>
+    </section>
         
     </form>
 </body>
