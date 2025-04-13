@@ -95,6 +95,14 @@ section h2 {
 
 
 /* ----- apply.hmtl ----- */
+#apply_header {
+    background-color: #0074D9;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
 #apply_h1 {
     color: white;  
     font-size: 2em;
@@ -105,51 +113,57 @@ section h2 {
 
 #apply_details_fieldset{
     background-color: white;   
-    margin-inline-start: 10%;
-    margin-inline-end: 10%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
 }
 
 #apply_details{
+    font-family: Arial, sans-serif;
     color: black;
     text-align: center;
 }
 
 #apply_address_fieldset{
     background-color: white;
-    margin-inline-start: 10%;
-    margin-inline-end: 10%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
 }
 
 #apply_address{
+    font-family: Arial, sans-serif;
     color: black;
     text-align: center;
 }
 
 #apply_contact_fieldset{
     background-color: white;
-    margin-inline-start: 10%;
-    margin-inline-end: 10%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
 }
 
 #apply_contact{
+    font-family: Arial, sans-serif;
     color: black;
     text-align: center;
 }
 
 #apply_work_fieldset{
     background-color: white;
-    margin-inline-start: 10%;
-    margin-inline-end: 10%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
 }
 
 #apply_work{
+    font-family: Arial, sans-serif;
     color: black;
     text-align: center;
 }
 
 .apply_submitReset{
+    font-family: Arial, sans-serif;
     text-align: center;
     background-color: #0074D9;
+    border-top: 1px solid black;
 }
 
 body {
