@@ -175,27 +175,26 @@ body {
 
  
  /* General Page Styling*/
- body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ .about body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
     padding: 20px;
   }
   
-  h1, h2, h3 {
+  .about h1, h2, h3 {
     color: #2a4661;
     margin-bottom: 10px;
   }
 
-  /* added id to h1 for test */
-  #about_h1 {
+  .about h1 {
     text-align: center;
     margin-bottom: 30px;
     color: white;
   }
   
-  section {
+  .about section {
     background-color: #fff;
     padding: 20px;
     margin: 20px auto;
@@ -205,65 +204,64 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
-  ul, dl, table {
+  .about ul, dl, li, table {
     margin-top: 10px;
-  }
-  
-  dl dt {
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  dl dd {
-    margin-left: 20px;
-    margin-bottom: 10px;
-  }
-
-  ul li {
     margin-bottom: 5px;
   }
+  
+  .about dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
 /* Group Image Styling*/
-  figure {
-    text-align: center;
+  .about figure {
+    text-align: right;
   }
   
-  img {
+  .about img {
     border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   }
   
-  figcaption {
+  .about figcaption {
     font-style: italic;
     margin-top: 5px;
   }
 
 /* Table Styling*/
-  table {
+  .about table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
   }
   
-  table caption {
+  .about table caption {
     font-weight: bold;
     margin-bottom: 10px;
   }
   
-  table, th, td {
-    border: 1px solid #ccc;
+  .about table, th, td {
+    border: 1px solid #1d1c1cd2;
   }
   
-  th, td {
+  .about th, td {
     padding: 12px;
     text-align: left;
   }
   
-  th {
-    background-color: #f0f0f0;
+  .about th {
+    background-color: #ccc;
+  }
+  
+  .about td {
+    background-color: #fcf8f8;
   }
   
 /* Group Profile Section */
-  .list-container {
+  .about .list-container {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -271,60 +269,55 @@ body {
     margin-top: 20px;
   }
   
-  .list-column {
+  .about .list-column {
     flex: 1 1 40%;
     min-width: 300px;
   }
   
-  .list-column h3 {
+  .about .list-column h3 {
     margin-bottom: 10px;
   }
   
-  .list-column ul {
+  .about .list-column ul {
     list-style-type: disc;
     padding-left: 20px;
   }
 
 /*Group Info Section*/
-  section ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  section ul > li {
+  .about section ul > li {
     font-weight: bold;
     margin-top: 12px;
   }
   
-  section ul li ul {
+  .about section ul li ul {
     list-style-type: disc;
     padding-left: 40px;
     font-weight: normal;
     margin-top: 5px;
   }
   
-  section ul li ul li {
+  .about section ul li ul li {
     margin-bottom: 4px;
     color: #555;
   }
 
-  details summary {
+  .about details summary {
     cursor: pointer;
     font-weight: bold;
     list-style: none;
     padding: 8px 0;
   }
   
-  details ul {
+  .about details ul {
     padding-left: 20px;
     list-style-type: disc;
   }
   
-  details[open] summary {
-    color: #4f3565;
+  .about details[open] summary {
+    color: #0074D9;
   }
 
-  details summary {
+  .about details summary {
     background-color: #f0f0f0;
     border-radius: 6px;
     padding: 8px 12px;
@@ -333,28 +326,28 @@ body {
     transition: background-color 0.2s ease;
   }
 
-  details summary:hover {
+  .about details summary:hover {
     background-color: #e0e0e0;
   }
 
 /*Group Info and Member Contribution*/
-  .dual-column {
+  .about .dual-column {
     display: flex;
     justify-content: space-between;
     gap: 40px;
     margin-top: 20px;
   }
   
-  .group-info, .members-contribution {
+  .about .group-info, .members-contribution {
     flex: 1;
-    min-width: 300px;
+    min-width: 100px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .group-info ul, .members-contribution dl {
+  .about .group-info ul, .members-contribution dl {
     margin-top: 10px;
   }
 
