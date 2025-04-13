@@ -7,10 +7,22 @@
     <meta name="author" content="Julian Saric">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application Form</title>
-    <link href="/styles/styles.css" rel="stylesheet">
+    <link href="/project1/styles/styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1 id="apply_h1">Job Application Form</h1>
+    
+    <header>
+        <h1 id="apply_h1">Job Application Form</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="mailto:info@techcareerhub.com.au">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
     <fieldset id="apply_details_fieldset">
@@ -89,9 +101,11 @@
         <p>
             Required Technical Skills
             <br/>
-            <label><input type="checkbox" name="skill[]" value="skill1" checked="checked" required="required">Skill 1</label><br/>
-            <label><input type="checkbox" name="skill[]" value="skill2">Skill 2</label><br/>
-            <label><input type="checkbox" name="skill[]" value="skill3">Skill 3</label><br/>
+            <label><input type="checkbox" name="skill[]" value="skill1" checked="checked" required="required">SQL</label><br/>
+            <label><input type="checkbox" name="skill[]" value="skill2">Data Visualisation</label><br/>
+            <label><input type="checkbox" name="skill[]" value="skill3">Stat Programming</label><br/>
+            <label><input type="checkbox" name="skill[]" value="skill4">Microsoft Excel</label><br/>
+            <label><input type="checkbox" name="skill[]" value="skill5">Data Management</label><br/>
         </p>
 
         <p>
@@ -111,5 +125,10 @@
     </section>
         
     </form>
+    <footer>
+        <p>&copy; 2025 Tech Career Hub. All rights reserved.</p>
+
+       
+    </footer>
 </body>
 </html>
