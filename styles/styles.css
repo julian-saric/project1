@@ -342,7 +342,8 @@ body {
   
 /* Group Image Styling*/
   .about figure {
-    text-align: right;
+    text-align: center;
+    object-fit: contain;
   }
   
   .about img {
