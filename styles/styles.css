@@ -95,6 +95,8 @@ section h2 {
 
 
 /* ------------------------------- apply.hmtl ------------------------------- */
+
+/* Styling for header and h1 on apply.html */
 #apply_header {
     background-color: #0074D9;
     color: white;
@@ -108,57 +110,82 @@ section h2 {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
 }
 
+/* styles details fieldset and details fieldset title */
 #apply_details_fieldset{
     background-color: white;   
     margin-inline-start: 20%;
     margin-inline-end: 20%;
+    border-radius: 8px;
 }
 
 #apply_details{
     font-family: Arial, sans-serif;
     color: black;
     text-align: center;
+    font: small-caps bold 0.9em Arial, sans-serif;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: lightgray;
 }
 
+/* styles address fieldset and address fieldset title */
 #apply_address_fieldset{
     background-color: white;
     margin-inline-start: 20%;
     margin-inline-end: 20%;
+    border-radius: 8px;
 }
 
 #apply_address{
     font-family: Arial, sans-serif;
     color: black;
     text-align: center;
+    font: small-caps bold 0.9em Arial, sans-serif;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: lightgray;
 }
 
+/* styles contact fieldset and contact fieldset title */
 #apply_contact_fieldset{
     background-color: white;
     margin-inline-start: 20%;
     margin-inline-end: 20%;
+    border-radius: 8px;
 }
 
 #apply_contact{
     font-family: Arial, sans-serif;
     color: black;
     text-align: center;
+    font: small-caps bold 0.9em Arial, sans-serif;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: lightgray;
 }
 
+/* styles work fieldset and work fieldset title */
 #apply_work_fieldset{
     background-color: white;
     margin-inline-start: 20%;
     margin-inline-end: 20%;
+    border-radius: 8px;
 }
 
 #apply_work{
     font-family: Arial, sans-serif;
     color: black;
     text-align: center;
+    font: small-caps bold 0.9em Arial, sans-serif;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: lightgray;
 }
 
+/* styles submit and reset buttons */
 .apply_submitReset{
     font-family: Arial, sans-serif;
     text-align: center;
@@ -166,6 +193,7 @@ section h2 {
     border-top: 1px solid black;
 }
 
+/* changes page background to lightblue */
 body {
     background-color: lightblue;
 }
