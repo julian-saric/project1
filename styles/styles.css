@@ -26,10 +26,17 @@ description: index.html, jobs.html, apply.html, about.html
   text-align: center; /* Center-align text in the header */
 }
 
+#index_header_section{
+  background-color: #5072a7;
+  border: none;
+}
 /* Header section title styles */
 #index_h1 {
   margin: 0; /* Remove default margin */
   font-size: 2rem; /* Set font size for the main title */
+  color: white;
+  font-family: arial, sans-serif;
+  
 }
 
 /* Logo image styles */
