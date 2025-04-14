@@ -2,13 +2,90 @@
 filename: styles.css
 author: Julian, Ethan, Lakshay, Jonas
 created: 10/04/25
-last modified: 13/04/25
+last modified: 14/04/25
 description: index.html, jobs.html, apply.html, about.html
 */
 
 /* ------------------------------- index.hmtl ------------------------------- */
 
+/* General body styles */
+#index_body {
+  font-family: 'Nunito', sans-serif; /* Set the font family to Nunito */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f4f4f4; /* Light gray background color */
+  color: #333; /* Dark gray text color */
+  line-height: 1.6; /* Increase line height for better readability */
+}
 
+/* Header styles */
+#index_header {
+  background: #5072a7; /* Blue background color for the header */
+  color: #6d6d6d; /* Light gray text color in the header */
+  padding: 1rem 0; /* Vertical padding for the header */
+  text-align: center; /* Center-align text in the header */
+}
+
+/* Header section title styles */
+#index_h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2rem; /* Set font size for the main title */
+}
+
+/* Logo image styles */
+#index_image {
+  width: 100px; /* Set width of the logo */
+  border-radius: 50%; /* Make the logo circular */
+  margin-top: 10px; /* Add top margin for spacing */
+}
+
+/* Navigation styles */
+#index_nav {
+  background: #333; /* Dark background color for the navigation */
+  color: #fff; /* White text color in the navigation */
+  padding: 0.5rem 0; /* Vertical padding for the navigation */
+  text-align: center; /* Center-align navigation links */
+}
+
+/* Navigation link styles */
+#index_nav a {
+  color: #fff; /* White text color for links */
+  padding: 0.5rem 1rem; /* Padding around links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Navigation link hover effect */
+#index_nav a:hover {
+  background-color: #555; /* Darker background on hover */
+}
+
+/* Section styles */
+#index_section {
+  padding: 1rem; /* Padding inside sections */
+  margin: 1rem auto; /* Center the section with auto margins */
+  max-width: 800px; /* Maximum width for sections */
+  background-color: #fff; /* White background for sections */
+  border-radius: 8px; /* Rounded corners for sections */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Section heading styles */
+#index_h2 {
+  color: #5072a7; /* Blue color for section headings */
+}
+
+/* Footer styles */
+#index_footer {
+  text-align: center; /* Center-align footer text */
+  padding: 1rem 0; /* Vertical padding for the footer */
+  background-color: #333; /* Dark background color for the footer */
+  color: #fff; /* White text color in the footer */
+}
+
+/* Footer link styles */
+#index_footer_a {
+  color: #fff; /* White text color for footer links */
+}
 
 /* ------------------------------- jobs.hmtl ------------------------------- */
 
@@ -23,14 +100,15 @@ body {
 
 /* Header styling */
 header {
-    background-color: #0074D9;
+    background-color: #5072a7;
     color: white;
-    padding: 20px 10px;
+    padding: 0.5rem 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2rem;
 }
 
 nav ul.menu {
@@ -38,18 +116,22 @@ nav ul.menu {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    background: #333;
+    text-align: center;
 }
 
 nav ul.menu li a {
     color: white;
+    padding: 0.5rem 1rem;
     text-decoration: none;
-    font-weight: bold;
 }
 
 nav ul.menu li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #555;
 }
 
 /* Main content */
@@ -98,11 +180,10 @@ section h2 {
 
 /* Styling for header and h1 on apply.html */
 #apply_header {
-    background-color: #0074D9;
+    background-color: #5072a7;
     color: white;
     padding: 20px 10px;
     text-align: center;
-    border-bottom: 1px solid black;
 }
 
 #apply_h1 {
@@ -123,7 +204,7 @@ section h2 {
 
 #apply_details{
     font-family: Arial, sans-serif;
-    color: black;
+    color: #2a4661;
     text-align: center;
     font: small-caps bold 0.9em Arial, sans-serif;
     border: solid 1px black;
@@ -141,7 +222,7 @@ section h2 {
 
 #apply_address{
     font-family: Arial, sans-serif;
-    color: black;
+    color: #2a4661;
     text-align: center;
     font: small-caps bold 0.9em Arial, sans-serif;
     border: solid 1px black;
@@ -159,7 +240,7 @@ section h2 {
 
 #apply_contact{
     font-family: Arial, sans-serif;
-    color: black;
+    color: #2a4661;
     text-align: center;
     font: small-caps bold 0.9em Arial, sans-serif;
     border: solid 1px black;
@@ -177,7 +258,7 @@ section h2 {
 
 #apply_work{
     font-family: Arial, sans-serif;
-    color: black;
+    color: #2a4661;
     text-align: center;
     font: small-caps bold 0.9em Arial, sans-serif;
     border: solid 1px black;
@@ -189,13 +270,21 @@ section h2 {
 .apply_submitReset{
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #0074D9;
+    background-color: #5072a7;
     border-top: 1px solid black;
 }
 
 /* changes page background to lightblue */
 body {
-    background-color: lightblue;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+
+#apply_body {
+  background-color: #f4f4f4;
+  padding: 0;
+  margin: 0;
 }
 
 
