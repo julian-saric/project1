@@ -10,7 +10,7 @@
     <link href="/project1/styles/styles.css" rel="stylesheet">
 </head>
 <body>
-    
+    <!--Header with links to other pages-->
     <header id="apply_header">
         <h1 id="apply_h1">Job Application Form</h1>
         <nav>
@@ -24,39 +24,49 @@
         </nav>
     </header>
 
+
     <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
+
+    <!--Details fieldset-->
+    <br>
     <fieldset id="apply_details_fieldset">
-        <legend id="apply_details"><strong>Details</strong></legend>
+        <legend id="apply_details"><strong>--- Details ---</strong></legend>
         <p>
+            <!--Drop down menu for reference numbers-->
             <label for="job_ref">Job Reference Number</label>
             <select name="Job Reference Number" id="job_ref" required="required">
                 <option value="">Please Select</option>
-                <option value="ref1">12345</option>
-                <option value="ref2">67890</option>
-                <option value="ref3">54321</option>
+                <option value="ref1">FE123</option>
+                <option value="ref2">CS509</option>
             </select>
         </p>
 
         <p>
+            <!--Text inpts for Firstname and Lastname-->
             <label for="first_name">First Name</label>
             <input type="text" name="first_name" id="first_name" pattern="[a-zA-Z]{1,15}" required="required">
             <label for="last_name">Last Name</label>
             <input type="text" name="last_name" id="last_name" pattern="[a-zA-Z]{1,15}" required="required">
         </p>
         <p>
+            <!--Calender select for birthdate-->
             <label>Date of Birth<input type="date" name="date_of_birth" required="required" ></label>
         </p>
             <p>Gender</p>
         <p>
+            <!--Radio buttons for gender-->
             <label><input type="radio" name="gender" value="Male" checked="checked"/>Male</label>
             <label><input type="radio" name="gender" value="Femal"/>Female</label>
             <label><input type="radio" name="gender" value="Other"/>Other</label>
         </p>
     </fieldset>
-    
+    <br>
+
+    <!--Address Fieldset-->
     <fieldset id="apply_address_fieldset">
-        <legend id="apply_address"><strong>Address</strong></legend>
+        <legend id="apply_address"><strong>--- Address ---</strong></legend>
         <p>
+            <!-- Text input for street address and suburb -->
             <label for="street_address">Street Address</label>
             <input type="text" name="street_address" id="street_address" pattern="{1,40}" required="required">
         </p>
@@ -65,6 +75,7 @@
             <input type="text" name="suburb_town" id="suburb_town" pattern="[a-zA-Z{1,40}" required="required">
         </p>
         <p>
+            <!--Dropdown menu to choose state-->
             <label for="state">State</label>
             <select name="state" id="state" required="required">
                 <option value="">Select State</option>
@@ -79,36 +90,46 @@
             </select>
         </p>
         <p>
+            <!-- Text input for postcode, only allows 4 numbers from 0-9 -->
             <label for="postcode">Postcode</label>
             <input type="text" name="postcode" id="postcode" pattern="[0-9]{4}" required="required">
         </p>
     </fieldset>
+    <br> 
 
+    <!--Contact details fieldset-->
     <fieldset id="apply_contact_fieldset">
-        <legend id="apply_contact"><strong>Contact Details</strong></legend>
+        <legend id="apply_contact"><strong>--- Contact Details ---</strong></legend>
         <p>
+            <!--text input for email-->
             <label for="email_address">Email</label>
             <input type="email" name="email_address" id="email_address" placeholder="name@domain.com" required="required">
         </p>
         <p>
+            <!--Text input for phone number, allows 8-12 numbers from 0-9 as well as spaces-->
             <label for="phone_number">Phone Number</label>
             <input type="text" name="phone_number" id="phone_number" pattern="[0-9\s]{8,12}" required="required">
         </p>
     </fieldset>
+    <br>
 
+    <!--Work Requirements fieldset-->
     <fieldset id="apply_work_fieldset">
-        <legend id="apply_work"><strong>Work Requirements</strong></legend>
+        <legend id="apply_work"><strong>--- Work Requirements ---</strong></legend>
         <p>
+            <!--Checkbox to select relevant skills, first skill automatically selected-->
             Required Technical Skills
             <br/>
             <label><input type="checkbox" name="skill[]" value="skill1" checked="checked" required="required">SQL</label><br/>
-            <label><input type="checkbox" name="skill[]" value="skill2">Data Visualisation</label><br/>
-            <label><input type="checkbox" name="skill[]" value="skill3">Stat Programming</label><br/>
+            <label><input type="checkbox" name="skill[]" value="skill2">HTML5</label><br/>
+            <label><input type="checkbox" name="skill[]" value="skill3">CSS3</label><br/>
             <label><input type="checkbox" name="skill[]" value="skill4">Microsoft Excel</label><br/>
-            <label><input type="checkbox" name="skill[]" value="skill5">Data Management</label><br/>
+            <label><input type="checkbox" name="skill[]" value="skill5">JavaScript</label><br/>
+            <label><input type="checkbox" name="skill[]" value="skill6">GitHub</label><br/>
         </p>
 
         <p>
+            <!-- Text area for other skills, not required to submit form-->
             <label>Other Skills <em>(Optional)</em></label>
             <br/>
             <textarea name="other_skills" rows="10" cols="50" placeholder="other skills here......"></textarea>
@@ -117,6 +138,7 @@
 
     <br/>
 
+    <!--Submit and reset form buttons-->
     <section class="apply_submitReset">
     <p>
         <input type="submit" value="Apply"/>
@@ -125,6 +147,8 @@
     </section>
         
     </form>
+
+    <!--Footer with copyright-->
     <footer>
         <p>&copy; 2025 Tech Career Hub. All rights reserved.</p>
     </footer>
